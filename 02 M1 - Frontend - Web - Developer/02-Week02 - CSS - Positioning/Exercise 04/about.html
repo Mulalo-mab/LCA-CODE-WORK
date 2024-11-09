@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta Tags for Character Encoding and Responsive Design -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Bootstrap Store</title>
+    
+    <!-- Bootstrap CSS for Styling and Animate.css for Animations -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet">
+</head>
+<body class="d-flex flex-column min-vh-100">
+    <!-- Navbar with Links to Other Pages -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="about.html">Studio Store</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="products.html">Products</a></li>
+                <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- About Section: Brief Introduction and Image of the Owner -->
+    <div class="container mt-4">
+        <div class="row">
+            <!-- Owner Image with Animation -->
+            <div class="col-md-6">
+                <img src="images/us.jpg" class="img-fluid rounded animate__animated animate__fadeInLeft" alt="Owner">
+            </div>
+            <!-- Owner Description Text with Animation -->
+            <div class="col-md-6">
+                <h2 class="text-center animate__animated animate__fadeInRight">About the Owner</h2>
+                <p class="text-center">Welcome to our store! We offer high-quality products and exceptional service...</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Mission Section with Animation -->
+    <div class="container mt-4">
+        <h3 class="text-center animate__animated animate__fadeInUp">Our Mission</h3>
+        <p class="text-center">At Studio Store, we are dedicated to providing unique and quality products. Our mission is to bring you closer to exclusive designs that reflect both style and quality.</p>
+    </div>
+    
+    <!-- Values Section Styled as a List Group -->
+    <div class="container my-5">
+        <h4 class="text-center animate__animated animate__fadeInUp">Our Values</h4>
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item">Quality</li>
+            <li class="list-group-item">Customer Satisfaction</li>
+            <li class="list-group-item">Integrity</li>
+            <li class="list-group-item">Innovation</li>
+        </ul>
+    </div>
+
+    <!-- Customer Testimonials Section with Bootstrap Cards -->
+    <div class="container my-5">
+        <h4 class="text-center animate__animated animate__fadeInUp">What Our Customers Say</h4>
+        <div class="card-deck mt-4">
+            <!-- Testimonial Card 1 -->
+            <div class="card">
+                <div class="card-body">
+                    <blockquote class="blockquote mb-0">
+                        <p>"Excellent service and beautiful products! Highly recommend."</p>
+                        <footer class="blockquote-footer">Sarah K.</footer>
+                    </blockquote>
+                </div>
+            </div>
+            <!-- Testimonial Card 2 -->
+            <div class="card">
+                <div class="card-body">
+                    <blockquote class="blockquote mb-0">
+                        <p>"Unique designs and quality materials. I'm a loyal customer!"</p>
+                        <footer class="blockquote-footer">Mike D.</footer>
+                    </blockquote>
+                </div>
+            </div>
+            <!-- Testimonial Card 3 -->
+            <div class="card">
+                <div class="card-body">
+                    <blockquote class="blockquote mb-0">
+                        <p>"Great value for the price. I'm always impressed with my purchases."</p>
+                        <footer class="blockquote-footer">Jessica L.</footer>
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Footer Section -->
+    <footer class="mt-auto bg-light text-center py-3">
+        <p>&copy; 2024 Bootstrap Store. All Rights Reserved.</p>
+    </footer>
+
+    <!-- Bootstrap JavaScript Bundle for Navbar Toggle Functionality -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
